@@ -6,11 +6,13 @@ import Loginn from './components/Loginn'
 const App = () =>{
     return (
         <div>
-            <Routes>
-                <Route path="/" element={<Signup/>} />
-                <Route path="/Loginn" element={<Loginn/>} />
-
-            </Routes>
+            <userProvider>
+                <Routes>
+                    <Route path="/" element={<Signup/>} />
+                    <Route path="/Loginn" element={<Loginn/>} />
+                </Routes>
+            </userProvider>
+          
         </div>
     )
 }
