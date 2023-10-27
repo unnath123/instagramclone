@@ -2,7 +2,7 @@ import React from 'react'
 import userContext from './userContext';
 import { useState, useEffect } from 'react'
 
-const userProvider = ({children}) =>{
+const UserProvider = ({children}) =>{
 
     const [token,setToken] = useState(null);
 
@@ -14,4 +14,4 @@ const userProvider = ({children}) =>{
     )
 }
 
-export default userProvider
+export default UserProvider

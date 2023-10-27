@@ -6,12 +6,12 @@ import Loginn from './components/Loginn'
 const App = () =>{
     return (
         <div>
-            <userProvider>
+            
                 <Routes>
-                    <Route path="/" element={<Signup/>} />
-                    <Route path="/Loginn" element={<Loginn/>} />
+                    <Route path="/sss" element={<Signup/>} />
+                    <Route path="/" element={<Loginn/>} />
                 </Routes>
-            </userProvider>
+            
           
         </div>
     )
